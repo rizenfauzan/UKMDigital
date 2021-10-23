@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftarkan diri Anda untuk dapat menulis berita, promo, dan info menarik lainnya."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="326dp"
+            android:layout_height="406dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_joinus" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="192dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorGreen"
+            android:drawableLeft="@drawable/ic_whatsaap"
+            android:text="Hubungi Kami"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
